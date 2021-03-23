@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d14 {
+    margin: 50px 0; 
+    height: 0; 
+    width: 0;
+    position: relative;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #FF4500;
+    border-left: 50px solid transparent;
+    transform: rotate(35deg);
+    }
+    .d14:before, 
+    .d14:after {
+    content: "";
+    height: 0; 
+    width: 0;
+    position: absolute;
+    }
+    .d14:before {
+    top: -26px; 
+    left: -32px;
+    border-bottom: 40px solid #FF4500;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    transform: rotate(-35deg);
+    }
+    .d14:after {
+    top: 2px; 
+    left: -53px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #FF4500;
+    border-left: 50px solid transparent;
+    transform: rotate(-70deg);
+    }
